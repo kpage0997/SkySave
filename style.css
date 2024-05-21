@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9ff;
+}
+
+.hero {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.search-form {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.search-form h2 {
+    margin-bottom: 1em;
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.deal-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 1em;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 1em 0;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
