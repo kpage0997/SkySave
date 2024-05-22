@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9179034-db10-4531-87ec-3b89dbd24c32" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../su24-individual-hw1" beforeDir="false" afterPath="$PROJECT_DIR$/../su24-individual-hw1" afterDir="false" />
-    </list>
+    <list default="true" id="c9179034-db10-4531-87ec-3b89dbd24c32" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +41,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jun/OneDrive - UNCG/CSC340/mvc-demo",
+    "last_opened_file_path": "C:/Users/Jun/OneDrive - UNCG/CSC340/Githubproject/SkySave",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +71,7 @@
       <workItem from="1715819831957" duration="81000" />
       <workItem from="1715868601798" duration="667000" />
       <workItem from="1716216003851" duration="20000" />
+      <workItem from="1716389352729" duration="17000" />
     </task>
     <servers />
   </component>
