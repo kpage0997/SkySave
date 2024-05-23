@@ -2,51 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image: url("/images/bground.png");
-
 }
-
-header {
-    width: 100%;
-}
-
-main {
-    flex: 1; /* Ensure main takes up remaining space */
-    padding: 20px;
-}
-
-.navbar-brand {
-    color: #0044cc !important; /* Change the color of the logo */
-}
-
-
-
- .navbar-toggler {
-    color: #0044cc !important; /* Change the color of the navbar toggle icon */
-}
-
-.nav-link {
-    color: #0044cc !important; /* Change the color of the text in the header */
-}
-
-.navbar {
-    border-bottom: 1px solid black;
-
-}
-
-
 
 .hero {
-
     color: black;
     text-align: center;
     padding: 2em 0;
 }
-
-
 
 .search-form {
     background-color: white;
@@ -63,132 +25,15 @@ main {
     margin-bottom: 1em;
 }
 
-.contact-info {
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better text readability */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: left;
-
-
-}
-
-.contact-info .row {
-    align-items: center; /* Center the content vertically */
-}
-
-
-
-.contact-info .icon {
-    width: 50px;
-    height: 50px;
-}
-
-.contact-item .card-body {
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.contact-info p {
-    font-size: 1.1em;
-    margin: 0.5em 0;
-    color: white; /* Ensure text is readable */
 }
-
-
-
-.text-center h2{
-    color: #0d6efd;
-}
-
-.form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-}
-
-.form-signin .checkbox {
-    font-weight: 400;
-}
-
-.form-signin .form-control {
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.form-signin .form-control:focus {
-    z-index: 2;
-}
-
-.form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-
-.form-signup {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-}
-
-.form-signup .form-control {
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.form-signup .form-control:focus {
-    z-index: 2;
-}
-
-.form-signup input[type="text"],
-.form-signup input[type="email"],
-.form-signup input[type="password"] {
-    margin-bottom: -1px;
-    border-radius: 0;
-}
-
-.form-signup input[type="password"]:last-of-type {
-    margin-bottom: 10px;
-    border-radius: 0 0 4px 4px;
-}
-
-.mb-4 {
-    margin-bottom: 1.5rem !important;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-}
-
 
 footer {
-    background-color: #2f69e1;
     color: white;
     text-align: center;
     padding: 1em 0;
-    margin-top: auto; /* Ensure footer is at the bottom */
-    width: 100%;
 }
 
 .footer-links {
