@@ -8,6 +8,9 @@ body{
     flex-direction: column;
     min-height: 100vh;
     background-image: url(../images/bground.png) ;
+    background-repeat: no-repeat;
+
+    background-size: cover;
 
 }
 
