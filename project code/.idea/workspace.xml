@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9179034-db10-4531-87ec-3b89dbd24c32" name="Changes" comment="" />
+    <list default="true" id="c9179034-db10-4531-87ec-3b89dbd24c32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/CSC340.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StudentService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/java/com/example/mvcdemo/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/java/com/example/mvcdemo/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/java/com/example/mvcdemo/student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/resources/templates/list-students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/resources/templates/student-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../temp/SkySave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../testing1-demo/src/test/java/com/_0/testing1_demo/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../testing1-demo/src/test/java/com/_0/testing1_demo/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../su24-individual-hw1" beforeDir="false" afterPath="$PROJECT_DIR$/../../su24-individual-hw1" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +33,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kimchidude&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kimchidude/CSC340.git&quot;,
+    &quot;accountId&quot;: &quot;3e0c348a-a0ef-461c-a116-e5edd0ee967e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -32,24 +64,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jun/OneDrive - UNCG/CSC340/Githubproject/SkySave",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SkySave.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jun/OneDrive - UNCG/CSC340/su24-security-demo-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="SkySave" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="skysave" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.csc340.SkySave" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +119,73 @@
       <workItem from="1715868601798" duration="667000" />
       <workItem from="1716216003851" duration="20000" />
       <workItem from="1716389352729" duration="17000" />
+      <workItem from="1717350538363" duration="4000" />
+      <workItem from="1717350728831" duration="157000" />
+      <workItem from="1717351197801" duration="600000" />
+      <workItem from="1717351820811" duration="29000" />
+      <workItem from="1717351858165" duration="29000" />
+      <workItem from="1717351895054" duration="37000" />
+      <workItem from="1717351968357" duration="123000" />
+      <workItem from="1717352108397" duration="17000" />
+      <workItem from="1717352138893" duration="75000" />
+      <workItem from="1717352241648" duration="38000" />
+      <workItem from="1717352369912" duration="122000" />
+      <workItem from="1717352502049" duration="126000" />
+      <workItem from="1717352723792" duration="119000" />
+      <workItem from="1717352856296" duration="386000" />
+      <workItem from="1717353361435" duration="3000" />
+      <workItem from="1717353373019" duration="93000" />
+      <workItem from="1717353503447" duration="5000" />
+      <workItem from="1717353552362" duration="22000" />
+      <workItem from="1717353592981" duration="21000" />
+      <workItem from="1717353660779" duration="48000" />
+      <workItem from="1717353740843" duration="20000" />
+      <workItem from="1717353772231" duration="414000" />
+      <workItem from="1717354201144" duration="81000" />
+      <workItem from="1717354448416" duration="242000" />
+      <workItem from="1717354701767" duration="263000" />
+      <workItem from="1717354987108" duration="586000" />
+      <workItem from="1717355592147" duration="33000" />
+      <workItem from="1717355644517" duration="60000" />
+      <workItem from="1717355912269" duration="6000" />
+      <workItem from="1717355987852" duration="127000" />
+      <workItem from="1717356273435" duration="316000" />
+      <workItem from="1717356608448" duration="83000" />
+      <workItem from="1717356727803" duration="63000" />
+      <workItem from="1717356803766" duration="373000" />
+      <workItem from="1717357208553" duration="57000" />
+      <workItem from="1717357533295" duration="39000" />
+      <workItem from="1717357581585" duration="593000" />
+      <workItem from="1717358191470" duration="1011000" />
+      <workItem from="1717359272968" duration="128000" />
+      <workItem from="1717359459629" duration="96000" />
+      <workItem from="1717359562687" duration="164000" />
+      <workItem from="1717359735559" duration="344000" />
+      <workItem from="1717360090601" duration="1998000" />
+      <workItem from="1717362147175" duration="1274000" />
+      <workItem from="1717364058664" duration="1647000" />
+      <workItem from="1717365749660" duration="1354000" />
+      <workItem from="1717367172607" duration="1027000" />
+      <workItem from="1717368242432" duration="2780000" />
+      <workItem from="1717371094339" duration="5704000" />
+      <workItem from="1717377076451" duration="21000" />
+      <workItem from="1717377119022" duration="176000" />
+      <workItem from="1717377316456" duration="88000" />
+      <workItem from="1717377427970" duration="18000" />
+      <workItem from="1717377470251" duration="17000" />
+      <workItem from="1717377504512" duration="1388000" />
+      <workItem from="1717378964612" duration="525000" />
+      <workItem from="1717379508042" duration="51000" />
+      <workItem from="1717379574997" duration="43000" />
+      <workItem from="1717379635994" duration="112000" />
+      <workItem from="1717379769839" duration="99000" />
+      <workItem from="1717379878896" duration="1114000" />
+      <workItem from="1717381048247" duration="540000" />
+      <workItem from="1717381711201" duration="259000" />
+      <workItem from="1717382009359" duration="698000" />
+      <workItem from="1717382727016" duration="204000" />
+      <workItem from="1717383071518" duration="6057000" />
+      <workItem from="1717389264146" duration="9371000" />
     </task>
     <servers />
   </component>
@@ -80,5 +194,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
