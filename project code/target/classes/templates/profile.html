@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skysave.com - Fly Smart, Save Big</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -78,15 +78,18 @@
     <div class="text-center">
         <h1 class="text-warning">ADMINISTRATOR FUNCTIONS</h1>
     </div>
-    <div class="mb-5"></div>
-    <h2>Flagged comments</h2>
-    <div class="mb-3"></div>
-    <a href="/reviews" class="text-decoration-none text-danger">John Doe - This is my review.</a><br>
-    <a href="/reviews" class="text-decoration-none text-danger">Susan Turner - This is my review.</a><br>
-    <div class="mb-5"></div>
+    <br>
 
+    <h2 class="stat">
+        Number of flagged reviews:
+        <a href="/reviews" class="text-danger">
+            <span th:text="${flaggedCount}"></span>
+        </a>
+    </h2>
+
+    <br>
     <a href="/userlist" type="button" class="btn btn-info">Check user List </a>
 </div>
-
 </body>
+
 </html>

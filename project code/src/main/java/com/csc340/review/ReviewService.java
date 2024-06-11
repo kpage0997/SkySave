@@ -27,6 +27,9 @@ public class ReviewService {
         reviewRepository.delete(review);
     }
 
+    public int flaggedCount(){
+        return reviewRepository.countByFlag(true);
+    }
 
     public void saveUser(Review review) {
          reviewRepository.save(review);

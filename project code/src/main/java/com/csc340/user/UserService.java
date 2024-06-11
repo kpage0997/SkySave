@@ -1,5 +1,6 @@
 package com.csc340.user;
 
+import com.csc340.review.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -11,6 +12,8 @@ public class UserService {
 
     private UserRepository userRepository;
     private PasswordEncoder passwordEncoder;
+    @Autowired
+    private ReviewRepository reviewRepository;
 
     @Autowired
     public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder) {
@@ -24,6 +27,7 @@ public class UserService {
 
     public void deleteByUsername(String username) {
         User user = userRepository.findByUsername(username).orElseThrow(null);
+        reviewRepository.deleteByUsername(username);
         userRepository.delete(user);
     }
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page - SkySave</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <header>
@@ -67,7 +67,7 @@
             <td th:text="${user.displayname}"></td>
             <td>
                 <form th:action="@{/delete/{username}(username=${user.username})}" method="post" style="display:inline;" th:if="${user.role != 'ADMIN'}">
-                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-sm btn-danger">Delete user</button>
                 </form>
             </td>
         </tr>

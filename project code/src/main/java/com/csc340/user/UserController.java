@@ -1,50 +1,60 @@
 package com.csc340.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
-import java.util.List;
 
-@RestController
-@RequestMapping("/users")
+@Controller
 public class UserController {
 
-     @Autowired
+    @Autowired
     private UserService userService;
 
-    // Create a new user
     @PostMapping("/create")
-    public User createUser(@RequestBody User user) {
-        return userService.saveUser(user);
+    public void createUser(User user) {
+        userService.saveUser(user);
     }
 
-    // Get all users
-    @GetMapping("/all")
-    public List<User> getAllUsers() {
-        return userService.findAllUsers();
+    @GetMapping("/username-exists")
+    public String usernameExists() {
+        return "username-exists";
     }
 
-    // Get a user by username
-    @GetMapping("/{username}")
-    public User findByUsername(@PathVariable String username) {
-        return userService.findByUsername(username);
+    @GetMapping("/results")
+    public String results() {
+        return "results";
     }
 
-    // Update a user
-    @PutMapping("/update/{username}")
-    public User updateUser(@PathVariable String username, @RequestBody User user) {
-        user.setUsername(username);
-        return userService.saveUser(user);
+    @GetMapping("/contact")
+    public String contact() {
+        return "contactus";
     }
 
-    @PutMapping("/{username}/role")
-    public User changeUserRole(@PathVariable String username, @RequestParam String role) {
-        return userService.changeUserRole(username, role);
+    @GetMapping("/register")
+    public String register() {
+        return "register";
     }
 
-    // Delete a user
-    @DeleteMapping("/delete/{username}")
-    public void deleteUser(@PathVariable String username) {
-        userService.deleteByUsername(username);
+    @GetMapping("/login")
+    public String login(Model model) {
+        return "login";
+    }
+
+    @GetMapping("/")
+    public String index() {
+        return "HomePage";
+    }
+
+    @GetMapping("/HomePage")
+    public String homePage() {
+        return "HomePage";
+    }
+
+    @GetMapping("/home")
+    public String home() {
+        return "HomePage";
     }
 }

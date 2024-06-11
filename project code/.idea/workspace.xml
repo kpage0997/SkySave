@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9179034-db10-4531-87ec-3b89dbd24c32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/CSC340.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StudentService.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/java/com/example/mvcdemo/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/java/com/example/mvcdemo/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/java/com/example/mvcdemo/student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/resources/templates/list-students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mvc-demo/src/main/resources/templates/student-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../temp/SkySave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testing1-demo/src/test/java/com/_0/testing1_demo/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testing1-demo/src/test/java/com/_0/testing1_demo/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../su24-individual-hw1" beforeDir="false" afterPath="$PROJECT_DIR$/../../su24-individual-hw1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../su24-individual-hw1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../su24-individual-hw1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -78,13 +62,13 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jun/OneDrive - UNCG/CSC340/su24-security-demo-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jun/OneDrive - UNCG/CSC340/SkySave-main/SkySave&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -186,6 +170,17 @@
       <workItem from="1717382727016" duration="204000" />
       <workItem from="1717383071518" duration="6057000" />
       <workItem from="1717389264146" duration="9371000" />
+      <workItem from="1717424478596" duration="1086000" />
+      <workItem from="1717425612803" duration="26000" />
+      <workItem from="1717425698702" duration="25000" />
+      <workItem from="1717425757719" duration="22000" />
+      <workItem from="1717425809614" duration="91000" />
+      <workItem from="1717425910767" duration="4793000" />
+      <workItem from="1717507873424" duration="6000" />
+      <workItem from="1717596628026" duration="6076000" />
+      <workItem from="1717647333705" duration="2220000" />
+      <workItem from="1717649590595" duration="1647000" />
+      <workItem from="1717682938227" duration="5251000" />
     </task>
     <servers />
   </component>
